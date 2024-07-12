@@ -32,10 +32,9 @@ const Footer = () => {
                     <div className="footer-col">
                         <h2>Follow Us</h2>
                         <ul className="social-links">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,12 +42,11 @@ const Footer = () => {
                     <div className="payment-methods">
                         <h2>Payments</h2>
                         <ul>
-                            <li><img src="images/visa.png" alt="Visa" /></li>
-                            <li><img src="images/mastercard.png" alt="Mastercard" /></li>
-                            <li><img src="images/rupay.png" alt="RuPay" /></li>
-                            <li><img src="images/paytm.png" alt="Paytm" /></li>
-                            <li><img src="images/google-pay.png" alt="Google Pay" /></li>
-                            <li><i className="fas fa-rupee-sign"></i> UPI</li>
+                            <li><img src="https://static.seekingalpha.com/uploads/2017/6/28/44583886-14986589045573394_origin.png" alt="Visa" /></li>
+                            <li><img src="https://pnghq.com/wp-content/uploads/master-png-free-png-images-74331.png" alt="Mastercard" /></li>
+                            <li><img src="https://orissadiary.com/wp-content/uploads/2018/01/RuPay-Logo_High-Res.png" alt="RuPay" /></li>
+                            <li><img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/09/paytm-logo-freelogovectors.net_.png" alt="Paytm" /></li>
+                            <li><img src="https://static.vecteezy.com/system/resources/previews/021/672/633/large_2x/google-pay-logo-transparent-free-png.png" alt="Google Pay" /></li>
                         </ul>
                     </div>
                     <div className="app-download">

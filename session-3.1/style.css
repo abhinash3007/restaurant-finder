@@ -1,3 +1,4 @@
+
 .card {
   width: 200px;
   border: 1px solid #ccc;
@@ -122,6 +123,26 @@
   justify-content: center;
   padding: 20px;
 }
+.search-shimmer {
+  height: 300px;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
+.shimmer-body{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+  color:lightgray ;
+}
 
 .footer {
   text-align: center;
@@ -132,13 +153,6 @@
 
 .footer ul {
     justify-content: space-between;
-}
-.search-shimmer {
-  height: 300px;
-  text-align: center;
-  margin: 20px 10px;
-  padding: 10px;
-  background-color: lightgray;
 }
 .head-btn {
   padding: 10px 20px;
